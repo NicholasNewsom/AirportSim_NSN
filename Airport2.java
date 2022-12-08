@@ -67,7 +67,6 @@ public class Airport2
 	/**
 	 * making the airport
 	 */
-	Airplane2 airplane = new Airplane2();
 	runway runway = new runway(3);
 	
 	/**
