@@ -79,11 +79,11 @@ public class Airplane2 implements Comparable<Airplane2>
 	{
 		if(inRunway)
 		{
-			return String.format("ID: %02d, emergency: %b, Time left on runway: %4d", planeID, emergency, runwayTimeLeft);
+			return String.format("ID: %1d, emergency: %b, Time left on runway: %3d", planeID, emergency, runwayTimeLeft);
 		}
 		else
 		{
-			return String.format("ID: %2d, emergency: %b, fuel remaining: %4d", planeID, emergency, fuel);
+			return String.format("ID: %1d, emergency: %b, fuel remaining: %3d", planeID, emergency, fuel);
 		}
 	}
 }
